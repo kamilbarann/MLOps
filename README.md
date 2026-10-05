@@ -1,1 +1,1 @@
-# MLOps
+# MLOps course repository
