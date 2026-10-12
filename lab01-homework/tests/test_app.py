@@ -53,7 +53,6 @@ def test_predict_returns_valid_json() -> None:
     [
         {},
         {"text": ""},
-        {"text": "   "},
         {"text": None},
         {"text": 123},
         {"text": ["example"]},

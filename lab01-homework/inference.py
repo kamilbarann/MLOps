@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import joblib
+from cleantext import clean
 from sentence_transformers import SentenceTransformer
 from sklearn.linear_model import LogisticRegressionCV
 
@@ -25,8 +26,9 @@ class SentimentAnalyzer:
         )
 
     def predict(self, text: str) -> str:
+        cleaned_text = clean(text)
         embeddings = self.sentence_transformer.encode(
-            [text],
+            [cleaned_text],
             convert_to_numpy=True,
             show_progress_bar=False,
         )
