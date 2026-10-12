@@ -224,3 +224,6 @@ __marimo__/
 
 # Large datasets, download them as described in the lab instructions
 lab02/data/*.csv
+
+# Sentence Transformer model for lab01-homework, not versioned (87 MB)
+lab01-homework/models/sentence_transformer.model/
