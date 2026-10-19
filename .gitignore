@@ -228,3 +228,6 @@ lab02/data/*
 
 # Sentence Transformer model for lab01-homework, not versioned (87 MB)
 lab01-homework/models/sentence_transformer.model/
+
+# Lab 02 homework data, downloaded and generated in the notebook
+lab02-homework/data/
