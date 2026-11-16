@@ -1,1 +1,6 @@
 /remote_data
+# MLflow
+mlflow.db
+mlflow-artifacts/
+mlruns/
+mlflow-data/
